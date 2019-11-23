@@ -11,7 +11,7 @@ import { AppRoutingModule } from "./app-routing.module";
 import { MenubarComponent } from "./menubar/menubar.component";
 
 import { AuthModule } from "./auth/auth.module";
-import { ApiService } from "./auth/api.service";
+import { ApiService } from "./api/api.service";
 
 @NgModule({
   declarations: [AppComponent, MenubarComponent],
